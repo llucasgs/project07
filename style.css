@@ -5,12 +5,16 @@
 }
 
 :root {
+  font-family: "Alice", serif;
   font-size: 62.5%;
+  line-height: 150%;
 }
 
 body {
   background-image: url(assets/bg-image.jpg);
   background-size: cover;
+  font-size: 1.6rem;
+  color: #573a37;
 }
 
 #page {
@@ -23,4 +27,18 @@ body {
 
 img {
   border-radius: 16px;
+}
+
+h1 {
+  line-height: 140%;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h1,
+h2 {
+  color: #291b1a;
 }
